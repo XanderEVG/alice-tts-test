@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  alice-tts:
+    build: .
+    container_name: alice-tts-test
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./config.json:/app/config.json
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Yekaterinburg
