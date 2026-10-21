@@ -1,7 +1,8 @@
 {
   "yandex_token": "***",
   "station_id": null,
-  "station_ip": "192.168.0.130",
+  "platform": "plum",
+  "station_ip": "192.168.0.60",
   "station_port": 1961,
   "port": 5000
 }
